@@ -15,28 +15,32 @@
   <title>Frontend Mentor | Testimonials</title>
 </head>
 <body class="bg-custom-light-grayish-blue font-Barlow Semi Condensed text-sm place-content-center">
-  <div id="flex-container" class="flex place-content-center">
+  <div id="flex-container" class="flex place-content-center p-8">
+    <div id="testimonials-grid" class="lg:grid gap-6 lg:grid-cols-4 lg:grid-rows-2 flex flex-col">
 
-    <div id="testimonials-grid" class="grid grid-cols-4 grid-rows-2 gap-6">
-
-      <div id="daniel-user-card" class="bg-custom-mod-violet card-base col-span-2">
-        <div id="user-personal-info" class="flex">
+      <div style="background-image: url('images/bg-pattern-quotation.svg');
+                  background-repeat: no-repeat;
+                  background-position: 80% 0%;
+                  background-size: 19%;"
+                  id="daniel-user-card" 
+                  class="bg-custom-mod-violet card-base lg:col-span-2 -z-10">
+        <div id="user-personal-info text" class="flex">
           <img
-          src="images/image-daniel.jpg" 
+          src="images/image-daniel.jpg"
           alt="daniel-portrait"
           class="portrait-base">
           <div id="user-title" class="pl-5">
             <h3 class="text-custom-light-grayish-blue">Daniel Clifford</h3>
-            <h3 class="text-custom-light-gray">Verified Graduate</h3>
+            <h3 class="text-custom-light-grayish-blue opacity-50">Verified Graduate</h3>
           </div>
         </div>
         
-        <p id="card-title" class="text-white title-base">
+        <p id="card-title" class="text-custom-light-grayish-blue title-base">
           I received a job offer mid-course, and the subjects I learned were current, if not more so, 
           in the company I joined. I honestly feel I got every penny´s worth.
         </p>
 
-        <p id="cart-quote" class="text-custom-light-gray">
+        <p id="cart-quote" class="text-custom-light-grayish-blue opacity-70">
           “I was an EMT for many years before I joined the bootcamp. I´ve been looking to make a 
           transition and have heard some people who had an amazing experience here. I signed up 
           for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
@@ -53,20 +57,20 @@
           class="portrait-base">
           <div id="user-title" class="pl-5">
             <h3 class="text-custom-light-grayish-blue">Jonathan Walters</h3>
-            <h3 class="text-custom-light-gray">Verified Graduate</h3>
+            <h3 class="text-custom-light-grayish-blue opacity-50">Verified Graduate</h3>
           </div>
         </div>
 
-        <p id="card-title" class="text-white title-base">
+        <p id="card-title" class="text-custom-light-grayish-blue title-base">
           The team was very supportive and kept me motivated
         </p>
-        <p id="card-quote" class="text-custom-light-gray">
+        <p id="card-quote" class="text-custom-light-grayish-blue opacity-70">
           “I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
           for a big company. This was one of the best investments I’ve made in myself.”
         </p>
       </div>
 
-      <div id="kira-user-card" class="bg-white card-base row-span-2">
+      <div id="kira-user-card" class="bg-white card-base lg:row-span-2">
         <div id="user-personal-info" class="flex">
           <img 
           src="images/image-kira.jpg" 
@@ -74,14 +78,15 @@
           class="portrait-base">
           <div id="user-title" class="pl-5">
             <h3 class="text-custom-very-dark-grayish-blue">Kira Whittle</h3>
-            <h3 class="text-custom-light-gray">Verified Graduate</h3>
+            <h3 class="text-custom-very-dark-grayish-blue opacity-50">Verified Graduate</h3>
           </div>
         </div>
 
         <p id="card-title" class="text-custom-very-dark-grayish-blue title-base">
           Such a life-changing experience. Highly recommended!
         </p>
-        <p id="card-quote" class="text-custom-very-dark-grayish-blue">
+
+        <p id="card-quote" class="text-custom-very-dark-grayish-blue opacity-70">
           “Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
           professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
           student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
@@ -95,26 +100,26 @@
 
       <div id="jeanette-user-card" class="bg-white card-base">
         <div id="user-personal-info" class="flex">
-          <img 
+          <img
           src="images/image-jeanette.jpg" 
           alt="image-kira"
           class="portrait-base">
           <div id="user-title" class="pl-5">
-            <h3 class="text-custom-very-dark-grayish-blue">Jeanette Harmon</h3>
-            <h3 class="text-custom-light-gray">Verified Graduate</h3>
+            <h3 class="text-custom-">Jeanette Harmon</h3>
+            <h3 class="text-custom-very-dark-grayish-blue opacity-50">Verified Graduate</h3>
           </div>
         </div>
 
         <p id="card-title" class="text-custom-very-dark-grayish-blue title-base">
           An overall wonderful and rewarding experience
         </p>
-        <p id="card-quote" class="text-custom-very-dark-grayish-blue">
+        <p id="card-quote" class="text-custom-very-dark-grayish-blue opacity-70">
           “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
           while doing something I love. ”
         </p>
       </div>
 
-      <div id="patric-user-card" class="bg-custom-very-dark-blackish-blue card-base col-span-2">
+      <div id="patric-user-card" class="bg-custom-very-dark-blackish-blue card-base lg:col-span-2">
         <div id="user-personal-info" class="flex">
           <img 
           src="images/image-patrick.jpg" 
@@ -122,7 +127,7 @@
           class="portrait-base border-custom-mod-violet">
           <div id="user-title" class="pl-5">
             <h3 class="text-custom-light-grayish-blue">Patrick Abrams</h3>
-            <h3 class="text-custom-light-gray">Verified Graduate</h3>
+            <h3 class="text-custom-light-grayish-blue opacity-50">Verified Graduate</h3>
           </div>
         </div>
 
@@ -130,7 +135,7 @@
           Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
           learning from their experiences was easy.
         </p>
-        <p id="card-quote" class="text-custom-light-gray">
+        <p id="card-quote" class="text-custom-light-grayish-blue opacity-70">
           “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
           gave me the confidence necessary to be able to go out in the world and present myself as a capable 
           junior developer. The standard is above the rest. You will get the personal attention you need from 

@@ -11,5 +11,5 @@
 }
 
 .title-base {
-    @apply py-6 text-xl font-bold;
+    @apply py-6 text-xl font-semibold;
 }
