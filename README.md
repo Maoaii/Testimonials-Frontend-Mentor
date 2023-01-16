@@ -35,6 +35,7 @@ Users should be able to:
 
 <br>
 
+<img src="./images/Mobile_view1.png" alt="mobile-view-1" style="width: 200px;">
 ![](./images/Mobile_view1.png)
 ![](./images/Mobile_view2.png)
 ![](./images/Mobile_view3.png)
