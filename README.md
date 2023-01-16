@@ -36,11 +36,10 @@ Users should be able to:
 <br>
 
 <img src="./images/Mobile_view1.png" alt="mobile-view-1" style="width: 200px;">
-![](./images/Mobile_view1.png)
-![](./images/Mobile_view2.png)
-![](./images/Mobile_view3.png)
-![](./images/Mobile_view4.png)
-![](./images/Mobile_view5.png)
+<img src="./images/Mobile_view2.png" alt="mobile-view-2" style="width: 200px;">
+<img src="./images/Mobile_view3.png" alt="mobile-view-3" style="width: 200px;">
+<img src="./images/Mobile_view4.png" alt="mobile-view-4" style="width: 200px;">
+<img src="./images/Mobile_view5.png" alt="mobile-view-5" style="width: 200px;">
 
 
 ### Links
