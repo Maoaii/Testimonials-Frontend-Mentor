@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-base {
+    @apply shadow-md rounded-md p-8 text-start;
+}
+
+.portrait-base {
+    @apply rounded-full border-2 max-w-[40px] max-h-[40px];
+}
+
+.title-base {
+    @apply py-6 text-xl font-bold;
+}
