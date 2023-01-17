@@ -513,32 +513,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.relative {
-  position: relative;
-}
-
-.z-\[-1\] {
-  z-index: -1;
-}
-
-.z-\[10\] {
-  z-index: 10;
-}
-
-.z-\[0\] {
-  z-index: 0;
-}
-
 .-z-10 {
   z-index: -10;
 }
 
 .flex {
   display: flex;
-}
-
-.w-5\/6 {
-  width: 83.333333%;
 }
 
 .grid-cols-4 {
@@ -654,6 +634,13 @@ video {
   font-weight: 600;
 }
 
+.quote-bg-img {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+  background-size: 19%;
+}
+
 @media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -665,13 +652,5 @@ video {
 
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 }

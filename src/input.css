@@ -13,3 +13,10 @@
 .title-base {
     @apply py-6 text-xl font-semibold;
 }
+
+.quote-bg-img {
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    background-size: 19%;
+}
